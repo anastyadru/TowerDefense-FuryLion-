@@ -318,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323279907}
   - component: {fileID: 323279906}
+  - component: {fileID: 323279905}
   m_Layer: 5
   m_Name: ScriptSound
   m_TagString: Untagged
@@ -325,6 +326,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &323279905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323279904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b22399930fd4840a49a151b333ed26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFX: {fileID: 323279906}
+  clickFX: {fileID: 8300000, guid: 03412a8f229a9415caafabb2faccc4f3, type: 3}
 --- !u!82 &323279906
 AudioSource:
   m_ObjectHideFlags: 0
@@ -743,7 +758,19 @@ MonoBehaviour:
   - eventID: 2
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 323279905}
+          m_TargetAssemblyTypeName: btnFX, Assembly-CSharp
+          m_MethodName: ClickSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &991945682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1027,7 +1054,19 @@ MonoBehaviour:
   - eventID: 2
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 323279905}
+          m_TargetAssemblyTypeName: btnFX, Assembly-CSharp
+          m_MethodName: ClickSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1398900230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1237,6 +1276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1981482197}
   - component: {fileID: 1981482196}
+  - component: {fileID: 1981482195}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -1244,6 +1284,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1981482195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981482194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6498379af968dd4298b4c02b5970654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_: {fileID: 1981482196}
 --- !u!82 &1981482196
 AudioSource:
   m_ObjectHideFlags: 0
