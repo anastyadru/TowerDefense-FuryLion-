@@ -1421,13 +1421,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8015337115942978776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c7d75751803ff34e9d49419461ba43c, type: 3}
+  m_Script: {fileID: 11500000, guid: 400d6fd92bfb57844b1391ce7f7792f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthText: {fileID: 2892157149668795841}
-  _killReward: 1
-  agent: {fileID: 7537156157585502403}
-  EndCube: {fileID: 0}
 --- !u!1 &8053443105485094804
 GameObject:
   m_ObjectHideFlags: 0
