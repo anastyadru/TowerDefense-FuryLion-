@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3629323747109075374}
   - component: {fileID: 3629323747109075375}
   - component: {fileID: 3629323747109075372}
-  - component: {fileID: 3629323747109075369}
+  - component: {fileID: 8015780375858918404}
   m_Layer: 5
   m_Name: First
   m_TagString: Untagged
@@ -27,7 +27,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3629323747109075346}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -121,20 +121,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3629323747109075375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: SelectedPlayer
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 3629323747109075369}
-          m_ObjectArgumentAssemblyTypeName: PlayerBtn, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &3629323747109075369
+      m_Calls: []
+--- !u!114 &8015780375858918404
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +131,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3629323747109075346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d7a9b561bc89524180af3ee4d032db3, type: 3}
+  m_Script: {fileID: 11500000, guid: 78cd16a7cd29e374090f1da761762df4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerObject: {fileID: 5011313312658910019, guid: 63d4fce8e667feb4e97ff4d720d2d88b, type: 3}
